@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>Y:\Project\ESE2RAM-Cartridge-74670\ESE2RAM-Cartridge-74670.kicad_sch</source>
+    <source>Y:\Project\ESE2RAM-Cartridge\ESE2RAM-Cartridge.kicad_sch</source>
     <date>2024/04/13 19:58:52</date>
     <tool>Eeschema 7.0.8</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -10,7 +10,7 @@
         <company>Goripon Hardware</company>
         <rev>4</rev>
         <date>2024-04-13</date>
-        <source>ESE2RAM-Cartridge-74670.kicad_sch</source>
+        <source>ESE2RAM-Cartridge.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -29,7 +29,7 @@
       <footprint>ProjectLibrary:BatteryHolder_CH2x-2032LF</footprint>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Single-cell battery"/>
       <property name="ki_keywords" value="battery cell"/>
       <sheetpath names="/" tstamps="/"/>
@@ -40,7 +40,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -51,7 +51,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -62,7 +62,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -73,7 +73,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -84,7 +84,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -95,7 +95,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -106,7 +106,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,7 +117,7 @@
       <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -128,7 +128,7 @@
       <footprint>ProjectLibrary:CP_Radial_D5.0mm_P2.00mm_Horizontal</footprint>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor, small symbol"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -146,7 +146,7 @@
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
       <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -164,7 +164,7 @@
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
       <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -190,7 +190,7 @@
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="SRAM 4M, 2.7-5.5V, 55ns 512K x 8 Asynch SRAM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cf3617c1-3b96-4d45-9842-a43e18b3324f</tstamps>
@@ -215,7 +215,7 @@
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="SRAM 4M, 2.7-5.5V, 55ns 512K x 8 Asynch SRAM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>208eabd0-5def-489f-827a-37c395361592</tstamps>
@@ -225,7 +225,7 @@
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -236,7 +236,7 @@
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -247,7 +247,7 @@
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -258,7 +258,7 @@
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -270,7 +270,7 @@
       <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
       <libsource lib="Device" part="R_Network08" description="8 resistor network, star topology, bussed resistors, small symbol"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="8 resistor network, star topology, bussed resistors, small symbol"/>
       <property name="ki_keywords" value="R network star-topology"/>
       <sheetpath names="/" tstamps="/"/>
@@ -296,7 +296,7 @@
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="6x6 Through Hole &amp; Ground Terminal Type,TS 6MM V H=7.0 160gf BULK "/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>43a700ae-ce66-4cd2-a8e2-996025fd2fc7</tstamps>
@@ -306,7 +306,7 @@
       <footprint>ProjectLibrary:DIP16_300mil_FineLongPad</footprint>
       <libsource lib="74xx" part="74LS670" description="4 x 4 Register Files 3-State Outputs"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="4 x 4 Register Files 3-State Outputs"/>
       <property name="ki_keywords" value="TTL Register 3State"/>
       <sheetpath names="/" tstamps="/"/>
@@ -317,7 +317,7 @@
       <footprint>ProjectLibrary:DIP16_300mil_FineLongPad</footprint>
       <libsource lib="74xx" part="74LS670" description="4 x 4 Register Files 3-State Outputs"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="4 x 4 Register Files 3-State Outputs"/>
       <property name="ki_keywords" value="TTL Register 3State"/>
       <sheetpath names="/" tstamps="/"/>
@@ -328,7 +328,7 @@
       <footprint>ProjectLibrary:DIP16_300mil_FineLongPad</footprint>
       <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Decoder 3 to 8 active low outputs"/>
       <property name="ki_keywords" value="TTL DECOD DECOD8"/>
       <sheetpath names="/" tstamps="/"/>
@@ -339,7 +339,7 @@
       <footprint>ProjectLibrary:DIP14_300mil_FineLongPad</footprint>
       <libsource lib="74xx" part="74LS00" description="quad 2-input NAND gate"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="quad 2-input NAND gate"/>
       <property name="ki_keywords" value="TTL nand 2-input"/>
       <sheetpath names="/" tstamps="/"/>
@@ -351,7 +351,7 @@
       <datasheet>http://www.ti.com/lit/gpn/sn74HC32</datasheet>
       <libsource lib="_GoriponsoftLibrary" part="74HC32" description="Quad 2-input OR"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESE2RAM-Cartridge-74670.kicad_sch"/>
+      <property name="Sheetfile" value="ESE2RAM-Cartridge.kicad_sch"/>
       <property name="ki_description" value="Quad 2-input OR"/>
       <property name="ki_keywords" value="HCMOS Or2"/>
       <sheetpath names="/" tstamps="/"/>
@@ -740,7 +740,7 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="ProjectLibrary">
-      <uri>Y:\Project\ESE2RAM-Cartridge-74670/Library.kicad_sym</uri>
+      <uri>Y:\Project\ESE2RAM-Cartridge/Library.kicad_sym</uri>
     </library>
     <library logical="SamacSys_Parts">
       <uri>Y:/ElectronicComponentLibrary/SamacSys_Parts.kicad_sym</uri>

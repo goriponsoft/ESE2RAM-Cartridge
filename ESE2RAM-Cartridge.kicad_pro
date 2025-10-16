@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_near_hole|122981500|147625000|3641620f-07a5-42a8-9b8a-efa3e38bc92b|d8110cc9-8d2e-45ff-b51f-66f403a54678",
+        "hole_near_hole|66931500|142845000|a9802709-bcfa-4817-941c-105c703c8f12|e2d86f61-8c65-4122-88f0-a0b879948d81"
+      ],
       "meta": {
         "version": 2
       },
@@ -417,7 +420,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESE2RAM-Cartridge-74670.kicad_pro",
+    "filename": "ESE2RAM-Cartridge.kicad_pro",
     "version": 1
   },
   "net_settings": {

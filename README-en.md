@@ -17,11 +17,11 @@ X(old Twitter): @goriponsoft
 
 This is a general-purpose backup RAM cartridge for MSX that can be used as storage, etc., devised by Mr. Tsujikawa of [Doujin Circle/ESE Artists' Factory](http://www.hat.hi-ho.ne.jp/tujikawa/ese/).
 
-Usually, it is produced by modifying the game's mega ROM cartridge and replacing the ROM with RAM. You can use the MGINST command to install a DOS kernel and use it as an SSD-like storage (ESE-RAMDisk), or load a mega ROM image and run it.
+Usually, it is produced by modifying the game's mega ROM cartridge and replacing the ROM with RAM. You can use the MGINST command to install a DOS kernel and use it as an SSD-like storage (ESE-RAMDisk), or to write and run a MegaROM image.
 
 Since it was originally devised to be used as storage, the cartridge itself is also more commonly referred to as "ESE-RAMDisk."
 
-Please note that it is illegal to load and use images of games that you do not own. In addition to ESE-RAMDisk, it is usually used to run images of the original game cartridge that becomes unusable when modified to ESE-RAM (must be exported to a file before modification), freeware, self-made ROM games, etc. used for.
+Please note that it is illegal to write and run images of games that you do not own. In addition to ESE-RAMDisk, it is usually used to run images of the original game cartridge that becomes unusable when modified to ESE-RAM (must be exported to a file before modification), freeware, self-made ROM games, etc. used for.
 
 For more information about ESE-RAMDisk, see [ESE Artists' Factory's ESE-RAMDisk page](http://www.hat.hi-ho.ne.jp/tujikawa/ese/eseram.html)(Note: This page is in Japanese.).
 
@@ -83,6 +83,9 @@ Immediately after starting or resetting this cartridge, the bank is as follows.
 |8000h-9FFFh|7000h-77FFh|0|
 |A000h-BFFFh|7800h-7FFFh|0|
 
+The 74HC670 IC used for the segment number register in this cartridge does not have a function to reset its value, so all segment numbers will be undefined immediately after startup (or the value immediately before the reset in the case of a reset). Therefore, to ensure that the ROM header with segment number 0 correctly appears at 4000h-5FFFh, the cartridge has a mechanism whereby all banks are fixed at segment number 0 until the first write is made to a register address after startup.
+
+Writing a value to a register address from this state releases the fixed segment number, and the written register will have the written segment number, while unwritten registers will return to their original state of undefined segment numbers.
 If you write a value to a register from this state, the written register will change to the written value, and the unwritten register will change to an undefined value.
 
 For example, if you write 0 to 6000h, the result will be as follows.
@@ -94,11 +97,9 @@ For example, if you write 0 to 6000h, the result will be as follows.
 |8000h-9FFFh|undefined|
 |A000h-BFFFh|undefined|
 
-Therefore, when running self-made mega ROM software with this cartridge, it is necessary to initialize it by writing 0 to the register of the bank containing the address being executed as early as possible in the INIT entry.
-If you first write to a register in a bank that does not contain the address being executed, the program being executed will switch to an undefined bank, and in most cases will run out of control.
-Also, the values ​​of registers that are not written to are undefined, so initialize them if necessary.
+For this reason, when running homemade MegaROM software on this cartridge, you must initialize by writing 0 to the register of the bank containing the current address as early as possible in the INIT entry. If you write to a register of a bank that does not contain the current address first, the running program will switch to an undefined bank and will most likely run out of control. Also, the values ​​of registers that are not written to will be undefined, so please initialize them if necessary.
 
-Normally, you can initialize the device without any problems by placing the following code in segment #0 and calling it from the INIT entry in the ROM header as code for the 4000h to 5FFFh banks.
+Normally, you can initialize successfully by placing the following code in segment #0 and calling the relevant address in bank 4000h to 5FFFh from the INIT entry in the ROM header.
 ```
 	xor		a
 	ld		(6000h),a
@@ -113,18 +114,31 @@ We will add the hardware that you have reported in order.
 
 ### Models that have been confirmed to be malfunctioning and their symptoms
 
-- JVC HC-90 and HC-95 (MSX2): Data read from RAM becomes corrupted and does not work properly.
+- JVC HC-90 and HC-95 (MSX2): The data read from the SRAM is garbled and does not work properly.
+- Mitsubishi ML-G30model1 and ML-G30model2: The data read from the SRAM is garbled and does not work properly.
 - Toshiba HX-E601 (expansion slot): Not recognized and will not start.
 
 ### Models that have been confirmed to work properly
 
 - Panasonic FS-A1ST
-- Sony HB-F1XV
-- Mitsubishi ML-G30model1 and ML-G30model2
+- Panasonic FS-A1F
+- National FS-4700
+- National CF-2000
+- National CF-2700
+- Sony HB-F1XV and HB-F1XDJ
 - Yamaha YIS503 and CX5F
 - Yamaha YIS604/128 and CX7M/128
 - Sanyo WAVY70FD and WAVY70FD2
 - Toshiba HX-31
+- Toshiba HX-10D and HX-10S
 - Mitsubishi ML-8000
 - General PCT-50 and PCT-55
-- Sony HB-F500
+- Sony HB-F500 *However, there are some issues with using it as an ESERAM disk.
+ｰ 8086YES! OneChipBook(MSXBOOK) *However, there are some issues with using it as an ESERAM disk.
+
+### Models under investigation
+
+- Frontline Expansion Slot (expansion slot)
+- Panasonic FS-A1WSX / FS-A1WX / FS-A1FX
+- Panasonic FS-A1 / FS-A1FM
+- CASIO MX-10

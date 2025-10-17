@@ -114,35 +114,44 @@ We will add the hardware that you have reported in order.
 
 ### Models that have been confirmed to be malfunctioning and their symptoms
 
-- JVC HC-90 and HC-95 (MSX2): The data read from the SRAM is garbled and does not work properly.
-- Mitsubishi ML-G30model1 and ML-G30model2: The data read from the SRAM is garbled and does not work properly.
-- Toshiba HX-E601 (expansion slot): Not recognized and will not start.
+- Victor HC-90 and HC-95: The data read from the SRAM is garbled and does not work properly.
+- Mitsubishi ML-G30 model1 and ML-G30 model2: The data read from the SRAM is garbled and does not work properly.
+- Toshiba HX-E601(expansion slot): Not recognized and will not start.
 
 ### Models that have been confirmed to work properly
 
 - Panasonic FS-A1ST
-- Panasonic FS-A1F
+- Panasonic FS-A1WX and FS-A1FX
+- Panasonic FS-A1, FS-A1F
 - National FS-4700
-- National CF-2000
-- National CF-2700
-- National CF-3000 and CF-3300
+- National CF-2000, CF-2700, CF-3000 and CF-3300
 - Sony HB-F1XV and HB-F1XDJ
+- Sony HB-201
 - Yamaha YIS503 and CX5F
 - Yamaha YIS604/128 and CX7M/128
-- Sanyo WAVY70FD and WAVY70FD2
-- Toshiba HX-31
+- Sanyo MPC-2(WAVY2)
+- Sanyo PHC-23J(WAVY23)
+- Sanyo PHC-70FD(WAVY70FD) and PHC-70FD2(WAVY70FD2)
 - Toshiba HX-10D and HX-10S
-- Pioneer PX-V7
+- Toshiba HX-31
+- Pioneer PX-V7, PX-V60
 - Mitsubishi ML-8000
+- Victor HC-7
+- Victor HC-80
+- Canon V-20
+- Casio PV-7, PV-16, MX-10
+- Casio KB-7(expansion slot)
 - General PCT-50 and PCT-55
 - Sony HB-F500 *However, there are some issues with using it as an ESERAM disk.
-- 8086YES! OneChipBook(MSXBOOK) *However, there are some issues with using it as an ESERAM disk.
+- ASCII-Sorutions 1chipMSX *However, there are some issues with using it as an ESERAM disk.
+- 8086YES! OneChipBook and MSXBOOK *However, there are some issues with using it as an ESERAM disk.
 
 ### Models under investigation
 
-- Frontline ExpansionSlot (expansion slot)
-- Panasonic FS-A1WSX / FS-A1WX / FS-A1FX
-- Panasonic FS-A1 / FS-A1FM
-- CASIO MX-10 / MX-101
-- CASIO PV-7 / PV-16
+- Frontline ExpansionSlot(expansion slot)
+- Panasonic FS-A1WSX
+- Panasonic FS-A1FM
+- CASIO MX-101
 - Pioneer PX-V60
+- Toshiba HX-20
+- Toshiba HX-30

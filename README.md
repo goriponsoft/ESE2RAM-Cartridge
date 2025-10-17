@@ -121,15 +121,18 @@ X(旧Twitter): @goriponsoft
 ### 正常動作が確認されている機種
 
 - パナソニック FS-A1ST
-ｰ パナソニック FS-A1F
+- パナソニック FS-A1F
 - ナショナル FS-4700
 - ナショナル CF-2000
 - ナショナル CF-2700
+- ナショナル CF-3000 および CF-3300
 - ソニー HB-F1XV および HB-F1XDJ
 - ヤマハ YIS503 および CX5F
 - ヤマハ YIS604/128 および CX7M/128
 - 三洋 WAVY70FD および WAVY70FD2
 - 東芝 HX-31
+- 東芝 HX-10D および HX-10S
+- パイオニア PX-V7
 - 三菱 ML-8000
 - ゼネラル PCT-50 および PCT-55
 - ソニー HB-F500 ※ただし似非RAMディスクとしての使用には難あり
@@ -142,3 +145,4 @@ X(旧Twitter): @goriponsoft
 - パナソニック FS-A1 / FS-A1FM
 - カシオ MX-10 / MX-101
 - カシオ PV-7 / PV-16
+- パイオニア PX-V60

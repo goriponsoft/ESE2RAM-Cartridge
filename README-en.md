@@ -125,12 +125,14 @@ We will add the hardware that you have reported in order.
 - National FS-4700
 - National CF-2000
 - National CF-2700
+- National CF-3000 and CF-3300
 - Sony HB-F1XV and HB-F1XDJ
 - Yamaha YIS503 and CX5F
 - Yamaha YIS604/128 and CX7M/128
 - Sanyo WAVY70FD and WAVY70FD2
 - Toshiba HX-31
 - Toshiba HX-10D and HX-10S
+- Pioneer PX-V7
 - Mitsubishi ML-8000
 - General PCT-50 and PCT-55
 - Sony HB-F500 *However, there are some issues with using it as an ESERAM disk.
@@ -143,3 +145,4 @@ We will add the hardware that you have reported in order.
 - Panasonic FS-A1 / FS-A1FM
 - CASIO MX-10 / MX-101
 - CASIO PV-7 / PV-16
+- Pioneer PX-V60

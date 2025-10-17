@@ -134,11 +134,12 @@ We will add the hardware that you have reported in order.
 - Mitsubishi ML-8000
 - General PCT-50 and PCT-55
 - Sony HB-F500 *However, there are some issues with using it as an ESERAM disk.
-ｰ 8086YES! OneChipBook(MSXBOOK) *However, there are some issues with using it as an ESERAM disk.
+- 8086YES! OneChipBook(MSXBOOK) *However, there are some issues with using it as an ESERAM disk.
 
 ### Models under investigation
 
-- Frontline Expansion Slot (expansion slot)
+- Frontline ExpansionSlot (expansion slot)
 - Panasonic FS-A1WSX / FS-A1WX / FS-A1FX
 - Panasonic FS-A1 / FS-A1FM
-- CASIO MX-10
+- CASIO MX-10 / MX-101
+- CASIO PV-7 / PV-16

@@ -137,7 +137,8 @@ X(旧Twitter): @goriponsoft
 
 ### 調査中の機種
 
-- フロンロライン Expansion Slot (拡張スロット)
+- フロンロライン エキスパンションスロット (拡張スロット)
 - パナソニック FS-A1WSX / FS-A1WX / FS-A1FX
 - パナソニック FS-A1 / FS-A1FM
-- カシオ MX-10
+- カシオ MX-10 / MX-101
+- カシオ PV-7 / PV-16

@@ -151,6 +151,5 @@ We will add the hardware that you have reported in order.
 - Frontline ExpansionSlot(expansion slot)
 - Panasonic FS-A1FM
 - CASIO MX-101
-- Pioneer PX-V60
 - Toshiba HX-20
 - Toshiba HX-30

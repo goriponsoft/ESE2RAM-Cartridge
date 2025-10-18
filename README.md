@@ -121,7 +121,7 @@ X(旧Twitter): @goriponsoft
 ### 正常動作が確認されている機種
 
 - パナソニック FS-A1ST
-- パナソニック FS-A1WX and FS-A1FX
+- パナソニック FS-A1WX and FS-A1FX, FS-A1WSX
 - パナソニック FS-A1, FS-A1F
 - ナショナル FS-4700
 - ナショナル CF-2000, CF-2700, CF-3000 および CF-3300
@@ -149,7 +149,6 @@ X(旧Twitter): @goriponsoft
 ### 調査中の機種
 
 - フロンロライン エキスパンションスロット(拡張スロット)
-- パナソニック FS-A1WSX
 - パナソニック FS-A1FM
 - カシオ MX-101
 - パイオニア PX-V60

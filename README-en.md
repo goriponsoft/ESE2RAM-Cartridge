@@ -121,7 +121,7 @@ We will add the hardware that you have reported in order.
 ### Models that have been confirmed to work properly
 
 - Panasonic FS-A1ST
-- Panasonic FS-A1WX and FS-A1FX
+- Panasonic FS-A1WX and FS-A1FX, FS-A1WSX
 - Panasonic FS-A1, FS-A1F
 - National FS-4700
 - National CF-2000, CF-2700, CF-3000 and CF-3300
@@ -149,7 +149,6 @@ We will add the hardware that you have reported in order.
 ### Models under investigation
 
 - Frontline ExpansionSlot(expansion slot)
-- Panasonic FS-A1WSX
 - Panasonic FS-A1FM
 - CASIO MX-101
 - Pioneer PX-V60

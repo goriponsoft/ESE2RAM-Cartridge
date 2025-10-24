@@ -110,13 +110,15 @@ Normally, you can initialize successfully by placing the following code in segme
 ## Compatibility information
 About hardware that has been confirmed to work (in no particular order).
 
-We will add the hardware that you have reported in order.
+We will add and change the items you report.
+
+Note: The names of the models that worked on the author's or the person reporting the functionality are listed, but this does not guarantee that they will work on all units, even if they are the same model. Due to aging or individual differences, they may not work, and vice versa.
 
 ### Models that have been confirmed to be malfunctioning and their symptoms
 
 - Victor HC-90 and HC-95: The data read from the SRAM is garbled and does not work properly.
-- Mitsubishi ML-G30 model1 and ML-G30 model2: The data read from the SRAM is garbled and does not work properly.
 - Toshiba HX-E601(expansion slot): Not recognized and will not start.
+- 8086YES! OneChipBook and MSXBOOK *The data written on this cartridge will be corrupted and it will not function properly.
 
 ### Models that have been confirmed to work properly
 
@@ -136,6 +138,7 @@ We will add the hardware that you have reported in order.
 - Toshiba HX-31
 - Pioneer PX-V7, PX-V60
 - Mitsubishi ML-8000
+- Mitsubishi ML-G30 model1 and ML-G30 model2
 - Victor HC-7
 - Victor HC-80
 - Canon V-20
@@ -144,7 +147,6 @@ We will add the hardware that you have reported in order.
 - General PCT-50 and PCT-55
 - Sony HB-F500 *However, there are some issues with using it as an ESERAM disk.
 - ASCII-Sorutions 1chipMSX *However, there are some issues with using it as an ESERAM disk.
-- 8086YES! OneChipBook and MSXBOOK *However, there are some issues with using it as an ESERAM disk.
 
 ### Models under investigation
 

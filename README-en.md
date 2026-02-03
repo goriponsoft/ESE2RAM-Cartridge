@@ -116,9 +116,9 @@ Note: The names of the models that worked on the author's or the person reportin
 
 ### Models that have been confirmed to be malfunctioning and their symptoms
 
-- Victor HC-90 and HC-95: The data read from the SRAM is garbled and does not work properly.
+- Victor HC-90 and HC-95: The data written on this cartridge will be corrupted and it will not function properly.
 - Toshiba HX-E601(expansion slot): Not recognized and will not start.
-- 8086YES! OneChipBook and MSXBOOK *The data written on this cartridge will be corrupted and it will not function properly.
+- 8086YES! OneChipBook and MSXBOOK: The data written on this cartridge will be corrupted and it will not function properly.
 
 ### Models that have been confirmed to work properly
 

@@ -984,7 +984,7 @@
     (property "Value" "BUS_MSX" (at 0 -27.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ProjectLibrary:CARD_MSX_AK_DUAL" (at 0 0 0)
+    (property "Footprint" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)

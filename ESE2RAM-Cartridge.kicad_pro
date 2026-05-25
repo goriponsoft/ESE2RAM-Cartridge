@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 8.5,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.153,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,8 +56,13 @@
         }
       ],
       "drc_exclusions": [
-        "hole_near_hole|122981500|147625000|3641620f-07a5-42a8-9b8a-efa3e38bc92b|d8110cc9-8d2e-45ff-b51f-66f403a54678",
-        "hole_near_hole|66931500|142845000|a9802709-bcfa-4817-941c-105c703c8f12|e2d86f61-8c65-4122-88f0-a0b879948d81"
+        "hole_near_hole|122981500|147625000|1c0a4fb5-2975-48ab-8a8e-fed74d05f282|dbc75f2b-6abd-4284-a849-cb25ff10c2b1",
+        "hole_near_hole|66931500|142845000|a3dbeeb0-d877-4fa4-aef3-74674154efcb|0aa93a21-166b-4290-ae15-4acaffa8db52",
+        "silk_over_copper|115942894|146077107|299507a7-9df9-4d34-9057-4bfeebb3a722|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|63883380|128310572|623d3c59-8293-4447-8878-7f6f40250105|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|77878123|117969047|13aa6b02-d9e9-4210-be22-87de728b4b60|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|90602879|117950501|5b239fed-4c1d-4502-ad56-b62008404acf|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|92999047|145981877|15025051-c993-41c1-8fc3-9da27cec4c7f|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -600,12 +605,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+5V": "Power",
-      "/BATT-": "Power",
-      "Net-(BT1-+)": "Power",
-      "Net-(D2-K)": "Power"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",

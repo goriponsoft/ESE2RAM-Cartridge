@@ -2,6 +2,9 @@
 
 [日本語版 README はこちら](README.md)
 
+>[!IMPORTANT]
+>Due to significant circuit modifications in Rev.7, we are releasing [Circuit Board Modification Information](upgrade_patch/main-en.md) to update boards from Rev.6 and earlier to the equivalent of Rev.7. Since the circuitry in Rev.6 and earlier boards put a strain on the MSX system, we strongly recommend performing this modification.
+
 ![Front side](assemble_manual/front.jpg)
 ![Rear side](assemble_manual/rear.jpg)
 
@@ -29,18 +32,20 @@ For more information about ESE-RAMDisk, see [ESE Artists' Factory's ESE-RAMDisk 
 
 In recent years, it has become difficult to obtain MSX games, and there was a lot of hesitation in replacing the precious Mega ROM cartridges with ESE-RAM. Therefore, we created this cartridge by using commonly available general-purpose logic ICs to create a circuit equivalent to a mega ROM controller, and using that to assemble ESE-RAM.
 
-I named this cartridge "ESE-ESE-RAM" or "ESE2-RAM". "ESE2-RAM" originates from "ESE squared".
+I named this cartridge "ESE-ESE-RAM" or "ESE2-RAM". "ESE2-RAM" originates from "ESE squared". It also implies "Next Generation (Second Generation) ESERAM".
 
 ## Components
-Note: After board Rev.6, U3 to U5 have been changed from 74HC series to 74AHC series.
+Note: From board Rev.6 onwards, U3-U5 have been changed from the 74HC series to the 74AHC series. From Rev.7 onwards, the resistors, capacitors, and diodes have also been changed.
 |Part Number|Parts|Quantity|
 |:--|:--|--:|
 |BT1|CR2032 battery holder, Either "CH29-2032LF"/"CH28-2032LF(TR)"/"CH004-2032LF"/"CH004-2032LF"|1|
-|C1-C8|Unpolarized capacitor, 100nF, 50V, 2.5mm pitch|8|
-|C9|Polarized capacitor, 47uF, 16V|1|
-|D1-D2|Diode "1N4148"|2|
-|IC1-IC2|4Mbit SRAM(628512 type/512Kx8), DIP-32, "AS6C4008" etc.|2|
-|R1-R4|Resistor 1/4W, 10K ohm|4|
+|C1-C8|MLCC, 100nF, 50V, 2.5mm pitch|8|
+|C9|MLCC, 100pF, 50V, 5mm pitch|1|
+|C10-C11|EC, 47uF, 6.3V or higher, 2mm pitch|2|
+|D1-D3|Schottky barrier diode "BAT43"<br>*A diode with a low forward voltage is required.|2|
+|IC1-IC2|4Mbit SRAM(628512 type/512K x 8bit), DIP-32, "AS6C4008" etc.|2|
+|R1-R2|Resistor 10K ohm, 1/4W|2|
+|R3|Resistor 3.3K ohm, 1/4W|1|
 |RN1|Resistor array 8 elements, 10K ohm, SIP-9|1|
 |S1|6x6mm Through hole & ground terminal type tactile switch "TVDP01-095BB1"|1|
 |U1-U2|General purpose logic IC "74HC670"|2|
@@ -52,10 +57,10 @@ Note: After board Rev.6, U3 to U5 have been changed from 74HC series to 74AHC se
 ## How to assemble
 Due to the mounting area of the board, components such as resistors, capacitors, and diodes are placed on the back side (solder side), so care must be taken when assembling.
 
-1. Turn the board over (the side with "Front" written next to the connector is the front side) and place the components in the order of diodes, resistors, ceramic capacitors, and register array, referring to the silk printing. Please solder from the front side (component side). If you apply too much solder, there will be a gap between the IC and the board, so use a moderate amount of solder when soldering.
+1. Turn the board over (the side with "Front" written next to the connector is the front side) and place the components in the order of diodes, resistors, ceramic capacitors, electrolytic capacitor, and register array, referring to the silk printing. Please solder from the front side (component side). Mount the electrolytic capacitor horizontally in the direction of the silk printing (if mounted vertically, it will not fit into the cartridge shell). If you apply too much solder, there will be a gap between the IC and the board, so use a moderate amount of solder when soldering.
 2. After soldering, cut off the excess leads on the surface. If there are any excess leads left, there will be a gap between the IC and the board, so please cut them as short as possible.
-3. Turn the board over, place the IC, electrolytic capacitor, and ceramic capacitor, and solder from the back side (solder side) as usual. Mount the electrolytic capacitor horizontally in the direction of the silk printing (if mounted vertically, it will not fit into the cartridge shell). You can treat the IC and capacitor leads as usual.
-4. Solder the tact switch and battery holder. As standard, the tactile switch is placed on the back side and the battery holder on the front side, but it can also be placed on the opposite side, so please place it as you like.
+3. Turn the board over, place the IC and solder from the back side (solder side) as usual. You can treat the IC leads as usual.
+4. Solder the tact switch and battery holder.
 5. After carefully checking that there are no short circuits or incorrectly installed parts, insert it into the actual MSX machine and check the operation. Even if you are not using it as an ESE-RAMDisk, it is easy to use MGINST to check its operation.
 
 ## Preparation (When using as ESE-RAMDisk)

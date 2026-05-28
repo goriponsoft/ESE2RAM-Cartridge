@@ -21,13 +21,13 @@ Here are the actual repair procedures.
 
 1. Pattern Cutting (Frontside of Circuit Board)
 <br>Perform pattern cutting.
-<br>Cut the patterns indicated by the red lines in the image (3 locations, 4 wires).
+<br>Cut the patterns indicated by the red lines (two locations) in the image.
 
 ![](cut_front.png)
 
 2. Pattern Cutting and Component Removal (Backside of Circuit Board)
 <br>Similar to the front side, pattern cutting is performed, and in addition, D1, D2, R3, and R4 are removed.
-<br>Cut the patterns indicated by the red lines in the image (7 locations, 7 wires), and remove the components enclosed by the orange lines (4 locations).
+<br>Cut the patterns indicated by the red lines (7 locations) in the image, and remove the components enclosed by the orange lines.
 
 ![](cut_back.png)
 

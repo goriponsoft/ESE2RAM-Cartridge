@@ -2,8 +2,10 @@
 
 [日本語版 README はこちら](README.md)
 
+<!--
 >[!IMPORTANT]
 >Due to significant circuit modifications in Rev.7, we are releasing [Circuit Board Modification Information](upgrade_patch/main-en.md) to update boards from Rev.6 and earlier to the equivalent of Rev.7. Since the circuitry in Rev.6 and earlier boards put a strain on the MSX system, we strongly recommend performing this modification.
+-->
 
 ![Front side](assemble_manual/front.jpg)
 ![Rear side](assemble_manual/rear.jpg)

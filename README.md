@@ -1,8 +1,10 @@
 # 似非²RAMカートリッジ(1Mbyte版)
 [English README is here](README-en.md)
 
->[!IMPORTANT]
+<!--
+>>[!IMPORTANT]
 >Rev.7で回路に大幅な改修が入ったため、Rev.6以前の基板をRev.7相当に改修する[基板改修情報](upgrade_patch/main.md)を公開しています。Rev.6以前の基板はMSX本体に負担を掛ける回路でしたので、この改修を行うことを強く推奨します。
+-->
 
 ![](assemble_manual/front.jpg)
 ![](assemble_manual/rear.jpg)
